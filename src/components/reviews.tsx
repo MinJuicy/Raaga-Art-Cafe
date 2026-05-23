@@ -23,7 +23,7 @@ export function Reviews() {
   return (
     <section id="reviews" className="py-24 md:py-36 bg-raaga-green relative overflow-hidden">
       {/* Decorative large quotes */}
-      <div className="absolute top-10 left-10 text-[20rem] font-serif text-raaga-lightgreen leading-none pointer-events-none opacity-50">
+      <div className="hidden md:block absolute top-10 left-10 text-[20rem] font-serif text-raaga-lightgreen leading-none pointer-events-none opacity-50 select-none">
         "
       </div>
 

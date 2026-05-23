@@ -20,7 +20,7 @@ export function Experience() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 md:gap-24 items-center">
           {/* Image composition */}
           <div className="relative">
-            <ScrollReveal direction="right" className="relative z-10 pr-12 pb-12">
+            <ScrollReveal direction="right" className="relative z-10 pr-8 pb-8 md:pr-12 md:pb-12">
               <div className="aspect-[4/5] overflow-hidden group">
                 <img
                   src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1200&auto=format&fit=crop"

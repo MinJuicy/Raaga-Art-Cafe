@@ -66,12 +66,12 @@ export function Menu() {
             Signature Dishes
           </h2>
           
-          <div className="flex flex-wrap justify-center gap-4 md:gap-8">
+          <div className="flex overflow-x-auto no-scrollbar justify-start md:justify-center gap-6 md:gap-8 pb-4 md:pb-0 w-full snap-x snap-mandatory px-4 md:px-0">
             {categories.map((cat) => (
               <button
                 key={cat}
                 onClick={() => setActiveCategory(cat)}
-                className={`font-sans text-sm tracking-widest uppercase transition-colors duration-300 pb-1 border-b ${
+                className={`snap-center shrink-0 font-sans text-sm tracking-widest uppercase transition-colors duration-300 pb-1 border-b ${
                   activeCategory === cat 
                     ? "text-raaga-gold border-raaga-gold" 
                     : "text-raaga-light/50 border-transparent hover:text-raaga-light"

@@ -34,13 +34,13 @@ export function Hero() {
           transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
           className="flex flex-col items-center"
         >
-          <span className="font-sans text-sm md:text-base font-light tracking-[0.4em] uppercase text-raaga-gold mb-6 block">
+          <span className="font-sans text-xs sm:text-sm md:text-base font-light tracking-[0.4em] uppercase text-raaga-gold mb-4 sm:mb-6 block max-w-[280px] sm:max-w-none text-center leading-relaxed">
             Dhaka's most artistic rooftop escape
           </span>
-          <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-raaga-light leading-tight mb-8 drop-shadow-lg max-w-4xl">
+          <h1 className="font-serif text-[2.75rem] leading-[1.1] sm:text-5xl md:text-7xl lg:text-8xl text-raaga-light mb-6 sm:mb-8 drop-shadow-lg max-w-4xl px-2 sm:px-0">
             Where Art, Food & <span className="text-raaga-beige italic">Atmosphere</span> Meet.
           </h1>
-          <p className="font-sans text-lg md:text-xl font-light text-raaga-beige max-w-2xl leading-relaxed mb-12 opacity-90">
+          <p className="font-sans text-sm sm:text-lg md:text-xl font-light text-raaga-beige max-w-2xl leading-relaxed mb-10 sm:mb-12 opacity-90 px-4 sm:px-0">
             Good food. Soft melodies. Skyline serenity.
           </p>
         </motion.div>
@@ -49,17 +49,17 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.6, ease: "easeOut" }}
-          className="flex flex-col sm:flex-row gap-6 w-full max-w-md justify-center"
+          className="flex flex-col sm:flex-row gap-4 sm:gap-6 w-full px-6 sm:px-0 max-w-md sm:max-w-none justify-center"
         >
           <a
             href="#menu"
-            className="px-8 py-4 bg-raaga-gold text-raaga-dark font-sans text-sm md:text-base uppercase tracking-widest hover:bg-raaga-light transition-colors duration-500 text-center w-full sm:w-auto"
+            className="px-8 py-3.5 sm:py-4 bg-raaga-gold text-raaga-dark font-sans text-xs sm:text-sm md:text-base uppercase tracking-widest hover:bg-raaga-light transition-colors duration-500 text-center w-full sm:w-auto"
           >
             Explore Menu
           </a>
           <a
             href="#book"
-            className="px-8 py-4 border border-raaga-light/30 text-raaga-light font-sans text-sm md:text-base uppercase tracking-widest hover:bg-raaga-light/10 backdrop-blur-sm transition-all duration-500 text-center w-full sm:w-auto"
+            className="px-8 py-3.5 sm:py-4 border border-raaga-light/30 text-raaga-light font-sans text-xs sm:text-sm md:text-base uppercase tracking-widest hover:bg-raaga-light/10 backdrop-blur-sm transition-all duration-500 text-center w-full sm:w-auto"
           >
             Reserve Table
           </a>

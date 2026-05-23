@@ -35,22 +35,22 @@ export function Booking() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-2">
                     <label className="font-sans text-xs uppercase tracking-widest text-raaga-light/50 pl-1">Name</label>
-                    <input type="text" className="w-full bg-raaga-black/50 border border-raaga-light/20 p-4 text-raaga-light focus:outline-none focus:border-raaga-gold transition-colors font-sans font-light" placeholder="John Doe" />
+                    <input type="text" className="w-full bg-raaga-black/50 border border-raaga-light/20 p-3.5 sm:p-4 text-raaga-light focus:outline-none focus:border-raaga-gold transition-colors font-sans font-light" placeholder="John Doe" />
                   </div>
                   <div className="space-y-2">
                     <label className="font-sans text-xs uppercase tracking-widest text-raaga-light/50 pl-1">Phone</label>
-                    <input type="tel" className="w-full bg-raaga-black/50 border border-raaga-light/20 p-4 text-raaga-light focus:outline-none focus:border-raaga-gold transition-colors font-sans font-light" placeholder="01XXX-XXXXXX" />
+                    <input type="tel" className="w-full bg-raaga-black/50 border border-raaga-light/20 p-3.5 sm:p-4 text-raaga-light focus:outline-none focus:border-raaga-gold transition-colors font-sans font-light" placeholder="01XXX-XXXXXX" />
                   </div>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   <div className="space-y-2">
                     <label className="font-sans text-xs uppercase tracking-widest text-raaga-light/50 pl-1">Date</label>
-                    <input type="date" className="w-full bg-raaga-black/50 border border-raaga-light/20 p-4 text-raaga-light focus:outline-none focus:border-raaga-gold transition-colors font-sans font-light [&::-webkit-calendar-picker-indicator]:filter [&::-webkit-calendar-picker-indicator]:invert" />
+                    <input type="date" className="w-full bg-raaga-black/50 border border-raaga-light/20 p-3.5 sm:p-4 text-raaga-light focus:outline-none focus:border-raaga-gold transition-colors font-sans font-light [&::-webkit-calendar-picker-indicator]:filter [&::-webkit-calendar-picker-indicator]:invert" />
                   </div>
                   <div className="space-y-2">
                     <label className="font-sans text-xs uppercase tracking-widest text-raaga-light/50 pl-1">Time</label>
-                    <select className="w-full bg-raaga-black/50 border border-raaga-light/20 p-4 text-raaga-light focus:outline-none focus:border-raaga-gold transition-colors font-sans font-light appearance-none">
+                    <select className="w-full bg-raaga-black/50 border border-raaga-light/20 p-3.5 sm:p-4 text-raaga-light focus:outline-none focus:border-raaga-gold transition-colors font-sans font-light appearance-none">
                       <option>18:00 PM</option>
                       <option>19:00 PM</option>
                       <option>20:00 PM</option>
@@ -60,7 +60,7 @@ export function Booking() {
                   </div>
                   <div className="space-y-2">
                     <label className="font-sans text-xs uppercase tracking-widest text-raaga-light/50 pl-1">Guests</label>
-                    <select className="w-full bg-raaga-black/50 border border-raaga-light/20 p-4 text-raaga-light focus:outline-none focus:border-raaga-gold transition-colors font-sans font-light appearance-none">
+                    <select className="w-full bg-raaga-black/50 border border-raaga-light/20 p-3.5 sm:p-4 text-raaga-light focus:outline-none focus:border-raaga-gold transition-colors font-sans font-light appearance-none">
                       <option>2 People</option>
                       <option>3 People</option>
                       <option>4 People</option>
@@ -71,7 +71,7 @@ export function Booking() {
                 
                 <div className="space-y-2 pt-2">
                    <label className="font-sans text-xs uppercase tracking-widest text-raaga-light/50 pl-1">Special Occasion (Optional)</label>
-                   <input type="text" className="w-full bg-raaga-black/50 border border-raaga-light/20 p-4 text-raaga-light focus:outline-none focus:border-raaga-gold transition-colors font-sans font-light" placeholder="Birthday, Anniversary..." />
+                   <input type="text" className="w-full bg-raaga-black/50 border border-raaga-light/20 p-3.5 sm:p-4 text-raaga-light focus:outline-none focus:border-raaga-gold transition-colors font-sans font-light" placeholder="Birthday, Anniversary..." />
                 </div>
 
                 <div className="pt-6">
