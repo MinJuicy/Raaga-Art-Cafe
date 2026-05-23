@@ -1,0 +1,6 @@
+{
+  "name": "Raaga Art Cafe",
+  "description": "A premium rooftop restaurant and botanical art cafe in Uttara, Dhaka.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
